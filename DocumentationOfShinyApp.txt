@@ -1,0 +1,12 @@
+This textfile documents the usage and purpose of this Shiny application.
+
+For people who are new to modeling, the concept of spliting your data into training and testing might be new.
+
+To let them have a better understanding on how the split of the data in modeling affects the accuracy of the model,
+this simple and interactive application allows them to play around with the proportion and look at how the accuracy of the model changes along with a change in the proportion of split between test and train data.
+
+On the left hand side, user jus have to key in values between 0 to 1, in steps of .05, and see the change in the accuracy of the model.
+
+A tick box is there if user do not want to see the result.
+
+The projection model used behind this Shiny application is the Decision Tree model and the data used is the 'IRIS' data and we are trying to predict the Spiece of a plant using other varibles like Sepal Length ,Sepal Width,Petal Length and Petal Width.
